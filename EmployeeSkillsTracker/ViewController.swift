@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     let sideMenu = ["Home","Create Profile","Logout"]
     var isSideBarOpen = false
+    let variable = "Ashlesha"
     
     override func viewDidLoad() {
         super.viewDidLoad()
