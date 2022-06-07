@@ -21,7 +21,6 @@
 		7CAC2F4C284F183C00AAA582 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC2F4B284F183C00AAA582 /* HomeViewController.swift */; };
 		7CAC2F4E284F185C00AAA582 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC2F4D284F185C00AAA582 /* CreateProfileViewController.swift */; };
 		7CB715C4284E067B00C1D448 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB715C3284E067B00C1D448 /* TableViewCell.swift */; };
-		FD83E00F284F563B008D8952 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD83E00E284F563B008D8952 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		7CAC2F4B284F183C00AAA582 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7CAC2F4D284F185C00AAA582 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		7CB715C3284E067B00C1D448 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		FD83E00E284F563B008D8952 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,6 @@
 				7CB715C3284E067B00C1D448 /* TableViewCell.swift */,
 				7CAC2F4B284F183C00AAA582 /* HomeViewController.swift */,
 				7CAC2F4D284F185C00AAA582 /* CreateProfileViewController.swift */,
-				FD83E00E284F563B008D8952 /* SecondViewController.swift */,
 			);
 			path = EmployeeSkillsTracker;
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 				7CAC2F4E284F185C00AAA582 /* CreateProfileViewController.swift in Sources */,
 				7CA00BDA2849CE5600A2AD07 /* TextFields.swift in Sources */,
 				7C0D9EDA284890C20008BBEB /* EmployeeSkillsTracker.xcdatamodeld in Sources */,
-				FD83E00F284F563B008D8952 /* SecondViewController.swift in Sources */,
 				7C0D9ED4284890C20008BBEB /* ViewController.swift in Sources */,
 				7CB715C4284E067B00C1D448 /* TableViewCell.swift in Sources */,
 				7C0D9ED0284890C20008BBEB /* AppDelegate.swift in Sources */,
