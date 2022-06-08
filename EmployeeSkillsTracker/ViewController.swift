@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.titleView?.tintColor = UIColor.systemTeal
+                
         sideView.isHidden = true
         sideTableView.isHidden = true
         
