@@ -221,50 +221,50 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luc-Pe-QCm">
-                                                <rect key="frame" x="45" y="50" width="285" height="40"/>
+                                                <rect key="frame" x="40" y="50" width="290" height="40"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="7ke-fB-EY9"/>
+                                                    <constraint firstAttribute="height" constant="40" id="MeP-dK-KDB"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <color key="textColor" systemColor="systemTealColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJZ-yd-lqP" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
-                                                <rect key="frame" x="45" y="115" width="285" height="30"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Employee ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJZ-yd-lqP" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
+                                                <rect key="frame" x="40" y="130" width="295" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="EwF-RE-oPu"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Gkn-wL-AIJ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" placeholder="Confirm Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qOB-eT-Ogs" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
-                                                <rect key="frame" x="45" y="315" width="285" height="30"/>
+                                                <rect key="frame" x="40" y="373" width="295" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="Mm6-9E-qlD"/>
+                                                    <constraint firstAttribute="height" constant="50" id="OJz-IH-bEP"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rbs-sn-JBl" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
-                                                <rect key="frame" x="45" y="265" width="285" height="30"/>
+                                                <rect key="frame" x="40" y="292" width="295" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="sa5-gr-aIv"/>
+                                                    <constraint firstAttribute="height" constant="50" id="49b-j1-U9f"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5bt-iw-A5V" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
-                                                <rect key="frame" x="45" y="215" width="285" height="30"/>
+                                                <rect key="frame" x="40" y="211" width="295" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="1J2-Jh-xhA"/>
+                                                    <constraint firstAttribute="height" constant="50" id="cLp-IG-SoL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-eL-hNg">
-                                                <rect key="frame" x="45" y="375" width="285" height="40"/>
+                                                <rect key="frame" x="40" y="473" width="295" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="orB-Un-sML"/>
+                                                    <constraint firstAttribute="height" constant="50" id="JjQ-ba-4Wx"/>
                                                 </constraints>
                                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -279,38 +279,27 @@
                                                     <color key="baseBackgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JOS-cl-Mga" customClass="TextFields" customModule="EmployeeSkillsTracker" customModuleProvider="target">
-                                                <rect key="frame" x="45" y="165" width="285" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="ltd-7J-FdV"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="7yZ-eL-hNg" firstAttribute="top" secondItem="qOB-eT-Ogs" secondAttribute="bottom" constant="30" id="4oW-QJ-ilQ"/>
-                                            <constraint firstItem="rbs-sn-JBl" firstAttribute="top" secondItem="5bt-iw-A5V" secondAttribute="bottom" constant="20" id="9XA-yZ-j9L"/>
-                                            <constraint firstAttribute="trailing" secondItem="7yZ-eL-hNg" secondAttribute="trailing" constant="45" id="A7w-3M-az1"/>
-                                            <constraint firstItem="MJZ-yd-lqP" firstAttribute="top" secondItem="luc-Pe-QCm" secondAttribute="bottom" constant="25" id="BHA-vv-Pg6"/>
-                                            <constraint firstItem="JOS-cl-Mga" firstAttribute="top" secondItem="MJZ-yd-lqP" secondAttribute="bottom" constant="20" id="E6t-qL-65a"/>
-                                            <constraint firstAttribute="trailing" secondItem="qOB-eT-Ogs" secondAttribute="trailing" constant="45" id="EL6-e9-ENe"/>
-                                            <constraint firstItem="5bt-iw-A5V" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="Ey3-cb-0cD"/>
-                                            <constraint firstItem="MJZ-yd-lqP" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="IA7-Yf-CkR"/>
-                                            <constraint firstAttribute="trailing" secondItem="5bt-iw-A5V" secondAttribute="trailing" constant="45" id="Ia4-ZB-03q"/>
-                                            <constraint firstItem="qOB-eT-Ogs" firstAttribute="top" secondItem="rbs-sn-JBl" secondAttribute="bottom" constant="20" id="Kxg-Yu-m1c"/>
-                                            <constraint firstItem="5bt-iw-A5V" firstAttribute="top" secondItem="JOS-cl-Mga" secondAttribute="bottom" constant="20" id="MC8-m1-lwf"/>
-                                            <constraint firstItem="7yZ-eL-hNg" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="QX8-T5-OrF"/>
-                                            <constraint firstItem="luc-Pe-QCm" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="RCL-Z4-BA5"/>
-                                            <constraint firstAttribute="trailing" secondItem="JOS-cl-Mga" secondAttribute="trailing" constant="45" id="ZkP-WP-Fw3"/>
-                                            <constraint firstItem="JOS-cl-Mga" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="bwC-QS-6o5"/>
-                                            <constraint firstItem="qOB-eT-Ogs" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="dmW-XX-doh"/>
-                                            <constraint firstAttribute="trailing" secondItem="luc-Pe-QCm" secondAttribute="trailing" constant="45" id="dyo-6v-PuQ"/>
-                                            <constraint firstAttribute="trailing" secondItem="MJZ-yd-lqP" secondAttribute="trailing" constant="45" id="nLF-rD-NGU"/>
-                                            <constraint firstAttribute="trailing" secondItem="rbs-sn-JBl" secondAttribute="trailing" constant="45" id="xd0-15-FdW"/>
-                                            <constraint firstItem="luc-Pe-QCm" firstAttribute="top" secondItem="SfD-u4-Zhe" secondAttribute="top" constant="50" id="yFf-Pj-Y1p"/>
-                                            <constraint firstItem="rbs-sn-JBl" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="45" id="z4q-DP-nYP"/>
+                                            <constraint firstAttribute="trailing" secondItem="qOB-eT-Ogs" secondAttribute="trailing" constant="40" id="3lW-Mm-icV"/>
+                                            <constraint firstItem="MJZ-yd-lqP" firstAttribute="top" secondItem="luc-Pe-QCm" secondAttribute="bottom" constant="40" id="80L-9H-fdg"/>
+                                            <constraint firstItem="MJZ-yd-lqP" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="AVm-6C-KDN"/>
+                                            <constraint firstItem="luc-Pe-QCm" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="FIm-X3-Lut"/>
+                                            <constraint firstItem="5bt-iw-A5V" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="GzM-G0-eCX"/>
+                                            <constraint firstItem="7yZ-eL-hNg" firstAttribute="top" secondItem="qOB-eT-Ogs" secondAttribute="bottom" constant="50" id="Ktc-PI-pBa"/>
+                                            <constraint firstAttribute="trailing" secondItem="rbs-sn-JBl" secondAttribute="trailing" constant="40" id="Lbp-XJ-5NN"/>
+                                            <constraint firstAttribute="trailing" secondItem="MJZ-yd-lqP" secondAttribute="trailing" constant="40" id="OqF-6R-Gq6"/>
+                                            <constraint firstItem="rbs-sn-JBl" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="Pc9-wO-jDs"/>
+                                            <constraint firstItem="5bt-iw-A5V" firstAttribute="top" secondItem="MJZ-yd-lqP" secondAttribute="bottom" constant="31" id="VhU-9R-fd1"/>
+                                            <constraint firstItem="qOB-eT-Ogs" firstAttribute="top" secondItem="rbs-sn-JBl" secondAttribute="bottom" constant="31" id="hUZ-Oi-g9f"/>
+                                            <constraint firstItem="luc-Pe-QCm" firstAttribute="top" secondItem="SfD-u4-Zhe" secondAttribute="top" constant="50" id="iC1-yK-TAf"/>
+                                            <constraint firstItem="qOB-eT-Ogs" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="ilR-Ij-RLD"/>
+                                            <constraint firstAttribute="trailing" secondItem="luc-Pe-QCm" secondAttribute="trailing" constant="45" id="jWq-L4-PwJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="5bt-iw-A5V" secondAttribute="trailing" constant="40" id="lFI-LS-gyd"/>
+                                            <constraint firstItem="rbs-sn-JBl" firstAttribute="top" secondItem="5bt-iw-A5V" secondAttribute="bottom" constant="31" id="qag-7r-bSj"/>
+                                            <constraint firstItem="7yZ-eL-hNg" firstAttribute="leading" secondItem="SfD-u4-Zhe" secondAttribute="leading" constant="40" id="qiE-Ss-vlU"/>
+                                            <constraint firstAttribute="trailing" secondItem="7yZ-eL-hNg" secondAttribute="trailing" constant="40" id="w2u-M9-jKN"/>
                                         </constraints>
                                     </view>
                                 </subviews>
